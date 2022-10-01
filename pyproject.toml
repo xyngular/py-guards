@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "singleton-simple"
-description = "Create singletons types in a simple way!"
+name = "guards"
+description = "Tools for guarding Defaults, Null and creating Singletons."
 version = "1.0.0"
 authors = ["Josh Orr <josh@orr.blue>"]
 readme = "README.md"
-packages = [{include = "singleton_simple"}]
+packages = [{include = "guards"}]
 license = "MIT"
 repository = "https://github.com/xyngular/py-guards"
 keywords = ["singleton", "type", "guards", "default", "null"]

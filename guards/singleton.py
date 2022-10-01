@@ -37,7 +37,7 @@ class Singleton:
         You can override by setting `value_as_bool=True` as a class argument, ie:
 
         ```python
-        from singleton_simple import Singleton
+        from guards import Singleton
 
         class MySingletonType(Singleton, value_as_bool=True)
             pass
