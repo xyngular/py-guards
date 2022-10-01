@@ -1,0 +1,8 @@
+on: workflow_dispatch
+name: force-publish-local
+jobs:
+  reusable:
+    uses: xyngular/reusable-github-workflows/.github/workflows/py-force-publish.yml@main
+    with:
+      real-publish: true
+    secrets: inherit
