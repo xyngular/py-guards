@@ -1,6 +1,28 @@
 _singleton_instances = {}
 
 
+def create_sentinel(name: str, value_as_bool: bool = True):
+    """
+        Convenience method.
+
+        Creates a Singleton class, with class name set to passed in name.
+        Allocated the singleton instance of that type, and returns the instance.
+
+        Doing this:
+
+        >>> MyGuard = create_sentinel('MyGuard')
+
+        Is equivelent to doing this:
+
+        >>> class MyGuardType(Singleton):
+        ...     pass
+        >>> MyGuard = MyGuardType()
+
+        Except, you don't have an attribute set to the 'type'; you just have the sentinel object.
+    """
+    return type(name, (Singleton,), value_as_bool=value_as_bool)()
+
+
 class Singleton:
     """
     This can be used as the superclass that should always be a Singleton no mater what.
@@ -76,3 +98,4 @@ class Singleton:
 
     def __deepcopy__(self, memo):
         return self
+
