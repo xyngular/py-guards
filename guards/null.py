@@ -57,14 +57,14 @@ from null_type import Null
 class SomeClass:
     nullable_str = 'default-str'
     some_int = 3
-    
+
     def json_dict(self):
         json_dict = {}
         if self.nullable_str is not None:
             json_dict['nullable_str'] = self.nullable_str
         if self.some_int is not None:
             json_dict['some_int'] = self.some_int
-        
+
         return {k: v if v is not Null else None for k, v in json_dict.items()}
 
 obj = SomeClass()
