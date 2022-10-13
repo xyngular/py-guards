@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/xyngular/py-guards/compare/v1.1.0...v1.1.1) (2022-10-13)
+
+
+### Bug Fixes
+
+* add missing deps for doc generator. ([41d2270](https://github.com/xyngular/py-guards/commit/41d2270c456ee034ad28bfe197d9a361bdada2d9))
+
 ## [1.1.0](https://github.com/xyngular/py-guards/compare/v1.0.0...v1.1.0) (2022-10-13)
 
 
