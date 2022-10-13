@@ -1,5 +1,24 @@
 # Changelog
 
+## [1.1.0](https://github.com/xyngular/py-guards/compare/v1.0.0...v1.1.0) (2022-10-13)
+
+
+### Features
+
+* added a `create_sentinal` convenience method. ([3fe13e2](https://github.com/xyngular/py-guards/commit/3fe13e2ff37bf559b708dc8a55797b9c8b0e9a27))
+
+
+### Bug Fixes
+
+* style ([fa7f382](https://github.com/xyngular/py-guards/commit/fa7f382a60d36090ef91417c8d2ba36e90aa0e24))
+* were using python 3.8 features. ([1f1e17f](https://github.com/xyngular/py-guards/commit/1f1e17f6e2827dae3e4fce1ca5838da86d6ee87c))
+
+
+### Documentation
+
+* added standard docs that the other libraries will also be using. ([a99526d](https://github.com/xyngular/py-guards/commit/a99526de5b69e43fa770c5dac4fb492975f40ddf))
+* adjust api ref link. ([efd39f6](https://github.com/xyngular/py-guards/commit/efd39f633da0db8a61e58e482f1336f5681b767b))
+
 ## 1.0.0 (2022-10-01)
 
 
