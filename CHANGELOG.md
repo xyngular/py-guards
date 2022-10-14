@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/xyngular/py-guards/compare/v1.1.1...v1.1.2) (2022-10-14)
+
+
+### Bug Fixes
+
+* publishing workflows. ([02d4143](https://github.com/xyngular/py-guards/commit/02d4143f878c9e70bca0e9f8362728ba8b36c4ad))
+
 ## [1.1.1](https://github.com/xyngular/py-guards/compare/v1.1.0...v1.1.1) (2022-10-13)
 
 
