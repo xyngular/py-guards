@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.4](https://github.com/xyngular/py-guards/compare/v1.1.3...v1.1.4) (2022-10-14)
+
+
+### Bug Fixes
+
+* enable prod publishing on force-publish workflow. ([3833d77](https://github.com/xyngular/py-guards/commit/3833d77f12ee93813c1f7089ffb2302af152ad03))
+
 ## [1.1.3](https://github.com/xyngular/py-guards/compare/v1.1.2...v1.1.3) (2022-10-14)
 
 
