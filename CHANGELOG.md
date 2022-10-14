@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.3](https://github.com/xyngular/py-guards/compare/v1.1.2...v1.1.3) (2022-10-14)
+
+
+### Documentation
+
+* fix readme doc link. ([e1a4ea6](https://github.com/xyngular/py-guards/commit/e1a4ea65eb6ef271e144b106c20e939f20fef1fa))
+
 ## [1.1.2](https://github.com/xyngular/py-guards/compare/v1.1.1...v1.1.2) (2022-10-14)
 
 
