@@ -1,0 +1,6 @@
+on: workflow_dispatch
+name: Force Publish Pypi
+jobs:
+  reusable:
+    uses: xyngular/reusable-github-workflows/.github/workflows/py-force-pypi-publish.yml@main
+    secrets: inherit
