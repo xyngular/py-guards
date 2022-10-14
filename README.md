@@ -12,7 +12,7 @@ Various objects that allow for sentinel-like singleton guards for various purpos
   - Null
 - Also, Easily create your own custom singletons/sentinels types.
 
-**[📄 Detailed Documentation](https://http://xyngular.github.io/py-guards/latest/)** | **[🐍 PyPi](https://pypi.org/project/guards/)**
+**[📄 Detailed Documentation](https://xyngular.github.io/py-guards/latest/)** | **[🐍 PyPi](https://pypi.org/project/guards/)**
 
 # Install
 
