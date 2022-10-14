@@ -3,4 +3,6 @@ name: Force Publish Pypi
 jobs:
   reusable:
     uses: xyngular/reusable-github-workflows/.github/workflows/py-publish-pypi.yml@main
+    with:
+      real-publish: true
     secrets: inherit
