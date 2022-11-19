@@ -1,7 +1,7 @@
 from copy import copy, deepcopy
 
-from guards import Null
-from guards.null import NullType
+from xsentinels import Null
+from xsentinels.null import NullType
 
 
 def test_default_is_false_like():
@@ -15,7 +15,7 @@ def test_only_one_default():
 
 
 def test_example():
-    from guards import Null
+    from xsentinels import Null
 
     class SomeClass:
         nullable_str = 'default-str'

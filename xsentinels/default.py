@@ -1,7 +1,7 @@
-from .singleton import Singleton
+from .sentinel import Sentinel
 
 
-class DefaultType(Singleton, value_as_bool=False):
+class DefaultType(Sentinel, value_as_bool=False):
     """
     Use `Default`. This class is an implementation detail, to ensure that there is ever only
     one `Default` value. I based this off how None works in Python [ie: type(None) is NoneType]
