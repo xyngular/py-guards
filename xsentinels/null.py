@@ -1,8 +1,8 @@
 from typing import Union, TypeVar
-from .singleton import Singleton
+from .sentinel import Sentinel
 
 
-class NullType(Singleton):
+class NullType(Sentinel):
     """
     Used to indicate something accepts `Null` via a type-hint.
 
