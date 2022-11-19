@@ -1,7 +1,7 @@
 from copy import copy, deepcopy
 
-from guards import Default
-from guards.default import DefaultType
+from xsentinels import Default
+from xsentinels.default import DefaultType
 
 
 def test_default_is_false_like():

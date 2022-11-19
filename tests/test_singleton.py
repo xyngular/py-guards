@@ -1,6 +1,6 @@
 from copy import copy, deepcopy
 
-from guards import Singleton
+from xsentinels import Singleton
 
 
 def test_ensure_only_one():

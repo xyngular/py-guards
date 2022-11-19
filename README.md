@@ -1,33 +1,33 @@
 ![PythonSupport](https://img.shields.io/static/v1?label=python&message=%203.8|%203.9|%203.10&color=blue?style=flat-square&logo=python)
-![PyPI version](https://badge.fury.io/py/guards.svg?)
+![PyPI version](https://badge.fury.io/py/xsentinels.svg?)
 
 
 
 # Overview
 
-Various objects that allow for sentinel-like singleton guards for various purposes, including:
+Various objects that allow for sentinel-like singletons for various purposes, including:
 
 - Ones pre-defined in this library:
   - Default
   - Null
 - Also, Easily create your own custom singletons/sentinels types.
 
-**[📄 Detailed Documentation](https://xyngular.github.io/py-guards/latest/)** | **[🐍 PyPi](https://pypi.org/project/guards/)**
+**[📄 Detailed Documentation](https://xyngular.github.io/py-xsentinels/latest/)** | **[🐍 PyPi](https://pypi.org/project/xsentinels/)**
 
 # Install
 
 ```bash
 # via pip
-pip install guards
+pip install xsentinels
 
 # via poetry
-poetry add guards
+poetry add xsentinels
 ```
 
 # Quick Start
 
 ```python
-from guards import Default
+from xsentinels import Default
 import os
 
 def my_func(my_param = Default):

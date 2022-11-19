@@ -1,7 +1,7 @@
-from guards import unwrap_union, Null, Nullable
+from xsentinels import unwrap_union, Null, Nullable
 from typing import Union, Optional, List
 import pytest
-from guards.unwrap import UnwrapResults
+from xsentinels.unwrap import UnwrapResults
 
 
 @pytest.mark.parametrize("test_type,expected_result", [

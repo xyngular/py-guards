@@ -1,6 +1,6 @@
 # Overview
 
-Various objects that allow for sentinel-like guards for various purposes, including:
+Various objects that allow for sentinel-like xsentinels for various purposes, including:
 
 - Easily create your own custom singletons/sentinels.
 - Use pre-created ones, such as:
@@ -12,10 +12,10 @@ Various objects that allow for sentinel-like guards for various purposes, includ
 
 ```bash
 # via pip
-pip install guards
+pip install xsentinels
 
 # via poetry
-poetry add guards
+poetry add xsentinels
 ```
 
 # Singleton Object
@@ -35,7 +35,7 @@ purposes than just being sentinels.
 Here is an example of using Singleton to easily make a safe sentinel object:
 
 ```python
-from guards import Singleton
+from xsentinels import Singleton
 import os
 
 class DefaultType(Singleton):
@@ -78,7 +78,7 @@ JSON document.
 Here is an example of using `Null`:
 
 ```python
-from guards import Null
+from xsentinels import Null
 
 class SomeClass:
     nullable_str = 'default-str'
@@ -128,7 +128,7 @@ The `Default` sentential value can help you do this easily.
 Here is an example of using `Default`:
 
 ```python
-from guards import Default
+from xsentinels import Default
 import os
 
 def my_method(some_param = Default):
@@ -154,7 +154,7 @@ a Null or Optional type, along with the non-null/default type.
 When you do something like this:
 
 ```python
-from guards import Nullable, unwrap_union
+from xsentinels import Nullable, unwrap_union
 from typing import get_type_hints
 
 class MyClass:
