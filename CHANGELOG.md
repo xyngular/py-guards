@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/xyngular/py-xsentinels/compare/v1.2.0...v1.2.1) (2023-02-03)
+
+
+### Bug Fixes
+
+* use lock to ensure only single object created. ([56e8e5d](https://github.com/xyngular/py-xsentinels/commit/56e8e5d13fc89246ecf4aeaad98b7d3024a0250f))
+
 ## [1.2.0](https://github.com/xyngular/py-xsentinels/compare/v1.1.4...v1.2.0) (2022-11-19)
 
 
