@@ -1,4 +1,7 @@
+import threading
+
 _singleton_instances = {}
+_lock = threading.Lock()
 
 
 def create_sentinel(name: str, value_as_bool: bool = True):
@@ -73,8 +76,18 @@ class Singleton:
 
     def __new__(cls, *args, **kwargs):
         singletons = _singleton_instances
-        if cls not in singletons:
-            singletons[cls] = super().__new__(cls, *args, **kwargs)
+
+        # If we have it, no need to lock, we never change this dict after initial object-creation.
+        obj = singletons.get(cls)
+        if obj is not None:
+            return obj
+
+        # We don't have it, so lock, check again while locked and if we still don't have it
+        # we can then safely create it.
+        with _lock:
+            if cls not in singletons:
+                singletons[cls] = super().__new__(cls, *args, **kwargs)
+
         return singletons[cls]
 
     def __init_subclass__(cls, name: str = None, value_as_bool: bool = False, **kwargs):
