@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.2](https://github.com/xyngular/py-xsentinels/compare/v1.2.1...v1.2.2) (2023-04-15)
+
+
+### Bug Fixes
+
+* docs ([0a8847a](https://github.com/xyngular/py-xsentinels/commit/0a8847aedf47fdc73ae4cd1058e52b4f5be83a79))
+* license ([31fca3f](https://github.com/xyngular/py-xsentinels/commit/31fca3f2c6043ef65cb956ec039913a40ad9a7dc))
+
 ## [1.2.1](https://github.com/xyngular/py-xsentinels/compare/v1.2.0...v1.2.1) (2023-02-03)
 
 
