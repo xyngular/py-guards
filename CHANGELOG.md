@@ -1,5 +1,36 @@
 # Changelog
 
+## [1.2.2](https://github.com/xyngular/py-xsentinels/compare/v1.2.1...v1.2.2) (2023-04-15)
+
+
+### Bug Fixes
+
+* docs ([0a8847a](https://github.com/xyngular/py-xsentinels/commit/0a8847aedf47fdc73ae4cd1058e52b4f5be83a79))
+* license ([31fca3f](https://github.com/xyngular/py-xsentinels/commit/31fca3f2c6043ef65cb956ec039913a40ad9a7dc))
+
+## [1.2.1](https://github.com/xyngular/py-xsentinels/compare/v1.2.0...v1.2.1) (2023-02-03)
+
+
+### Bug Fixes
+
+* use lock to ensure only single object created. ([56e8e5d](https://github.com/xyngular/py-xsentinels/commit/56e8e5d13fc89246ecf4aeaad98b7d3024a0250f))
+
+## [1.2.0](https://github.com/xyngular/py-xsentinels/compare/v1.1.4...v1.2.0) (2022-11-19)
+
+
+### Features
+
+* add `Sentinel` class, to make things more self-documenting + future use. ([e6fe621](https://github.com/xyngular/py-xsentinels/commit/e6fe621af96eb0b0df1f0e67945e7fb059e8edc9))
+* allow more freedom for typing-inspect. ([fa44ec8](https://github.com/xyngular/py-xsentinels/commit/fa44ec8c1cdd5d73030c1c24696037d627285fc0))
+* rename library from `guards` to `xsentinels`. ([25f23cc](https://github.com/xyngular/py-xsentinels/commit/25f23ccf7773384715e66a93e3091c55b0e5d745))
+* rename library from `guards` to `xsentinels`. ([f0a49d7](https://github.com/xyngular/py-xsentinels/commit/f0a49d7a0f5bbfc01c64131eda2767a56bad2b11))
+* updated description. ([c9e34a5](https://github.com/xyngular/py-xsentinels/commit/c9e34a55e1b8a3772ca4908d6ca250601b8e220c))
+
+
+### Documentation
+
+* attempt to make github not cache image. ([4107ecf](https://github.com/xyngular/py-xsentinels/commit/4107ecf3806f822fa597885233239abcc8951dad))
+
 ## [1.1.4](https://github.com/xyngular/py-xsentinels/compare/v1.1.3...v1.1.4) (2022-10-14)
 
 
