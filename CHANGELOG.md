@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.3.0](https://github.com/xyngular/py-xsentinels/compare/v1.2.2...v1.3.0) (2025-01-30)
+
+
+### Features
+
+* support for mypy ([7d15aed](https://github.com/xyngular/py-xsentinels/commit/7d15aedd6ab45b063f8e1aad6a7857641d257daf))
+
+
+### Documentation
+
+* update readme with proper python versions supported. ([470ae5d](https://github.com/xyngular/py-xsentinels/commit/470ae5da88051478310b22b0093628ee675ade65))
+
 ## [1.2.2](https://github.com/xyngular/py-xsentinels/compare/v1.2.1...v1.2.2) (2023-04-15)
 
 
