@@ -1,6 +1,6 @@
 import dataclasses
 
-import typing_inspect
+import typing_inspect  # type: ignore
 from typing import Type, Union
 from .null import NullType
 
