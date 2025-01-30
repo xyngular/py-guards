@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.1](https://github.com/xyngular/py-xsentinels/compare/v1.3.0...v1.3.1) (2025-01-30)
+
+
+### Bug Fixes
+
+* move py.typed file into package directory, was in wrong location. ([e5e86e4](https://github.com/xyngular/py-xsentinels/commit/e5e86e4bd80141996a2cd3934195090534fbd8de))
+
 ## [1.3.0](https://github.com/xyngular/py-xsentinels/compare/v1.2.2...v1.3.0) (2025-01-30)
 
 
