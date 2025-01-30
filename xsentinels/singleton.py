@@ -1,6 +1,7 @@
 import threading
+from typing import Type, Any
 
-_singleton_instances = {}
+_singleton_instances: dict[Type, Any] = {}
 _lock = threading.Lock()
 
 
@@ -23,7 +24,7 @@ def create_sentinel(name: str, value_as_bool: bool = True):
 
         Except, you don't have an attribute set to the 'type'; you just have the sentinel object.
     """
-    return type(name, (Singleton,), value_as_bool=value_as_bool)()
+    return type(name, (Singleton,), value_as_bool=value_as_bool)()  # type: ignore
 
 
 class Singleton:
@@ -73,6 +74,8 @@ class Singleton:
         ```
 
     """
+    _name: str
+    _value_as_bool: bool
 
     def __new__(cls, *args, **kwargs):
         singletons = _singleton_instances
@@ -90,7 +93,7 @@ class Singleton:
 
         return singletons[cls]
 
-    def __init_subclass__(cls, name: str = None, value_as_bool: bool = False, **kwargs):
+    def __init_subclass__(cls, name: str | None = None, value_as_bool: bool = False, **kwargs):
         super().__init_subclass__(**kwargs)
         if not name:
             name = cls.__name__
